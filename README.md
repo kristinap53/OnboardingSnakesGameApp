@@ -1,4 +1,4 @@
-# 🐍 Snakes Game App
+# Service Fabric Onboardgin Application - SnakesGameApp
 
 This is a full-stack onboarding project featuring a **React + TypeScript frontend** and a **Service Fabric backend** built with **.NET Core 8**. It is created to show creation and communication of stateful and stateless services, ASP .NET Core Web services, reliable actors and reliable storage, upgrades, placement affinities and other Service Fabric specific capabilities.
 
