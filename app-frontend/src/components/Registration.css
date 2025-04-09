@@ -1,0 +1,77 @@
+.registration-container {
+    background-image: url('../../public/images/snake_game_background.jpg');
+    background-size: cover; 
+    color: #dcdcdc; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  .registration-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0.3, 0, 0.2, 0.6); 
+    z-index: 1;
+  }
+  
+  .registration-container .content-box {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(180, 109, 109, 0.5);
+    position: relative;
+    z-index: 2;
+  }
+  
+  .registration-title {
+    color: #235494; 
+    margin-bottom: 20px;
+    font-size: 2.5rem; 
+  }
+  
+  .registration-description {
+    color: #235494; 
+    margin-bottom: 40px;
+    font-size: 1.2rem; 
+  }
+
+  .register {
+    color: #ffffff;
+  }
+
+  .form-label {
+    padding-top: 2vh;
+    color: #ffffff;
+  }
+  
+  .registration-container .form-box {
+    background-color: #5683aa !important; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px; 
+  }
+  
+  .registration-button.btn {
+    margin-top: 2vh;
+    background-color: #235494; 
+    border: none;
+    color: white; 
+    font-size: large;
+    margin-inline: 2rem;
+  }
+  
+  .registration-button:hover {
+    background-color: #6dafd8; 
+    color: white; 
+  }
+  

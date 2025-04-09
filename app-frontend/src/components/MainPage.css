@@ -1,0 +1,22 @@
+.main-container {
+    padding: 20px;
+    height: 90vh;
+  }
+  
+  .custom-tabs .nav-link {
+    font-size: 1.5rem;  
+    color: #235494;
+  }
+  
+  .custom-tabs .nav-link.active {
+    background-color: #cbe2f2;  
+  }
+  
+  .custom-tabs .nav-link:hover {
+    background-color: #e3eef7;  
+  }
+  
+  .custom-tabs .tab-pane {
+    padding-top: 20px;
+  }
+  
