@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# Optional explicit overrides:
+*.cs      text eol=lf
+*.csproj  text eol=lf
+*.sln     text eol=lf
+*.js      text eol=lf
+*.ts      text eol=lf
+*.tsx     text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
