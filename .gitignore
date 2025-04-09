@@ -1,8 +1,13 @@
 # .NET
-bin/
-obj/
+.vs/
 *.user
 *.suo
+*.cache
+*.pdb
+*.db
+*.DotSettings
+bin/
+obj/
 
 # React / Node
 node_modules/
